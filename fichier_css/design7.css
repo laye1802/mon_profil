@@ -1,0 +1,16 @@
+#mapid{
+    position:absolute; 
+     width:80%;
+     height: 88%;
+     margin-left: 10%;
+     margin-left: 10%;
+     margin-bottom: 20px;
+     box-shadow: #E1E1E1 3px 3px 3px 3px;
+
+}
+#bandeau{
+    width: 100%;
+}
+#leaflet{
+    padding: 20px;
+}

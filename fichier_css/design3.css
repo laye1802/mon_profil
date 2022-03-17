@@ -1,0 +1,21 @@
+.partie4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+.bloc4{
+    background-color: #F2F2F2;
+    width: 100%;
+    word-wrap: break-word;
+    height: 30%;
+    padding: 0.5%;
+    color: #9C9C9C;
+}
+.contain4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}

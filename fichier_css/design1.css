@@ -1,0 +1,72 @@
+.div5{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    word-wrap: break-word;
+    width: 500px;
+    font-family: Apple Chancery, cursive;
+}
+.mon_image{
+    padding: 15px;
+    box-shadow: #E1E1E1 3px 3px 3px 3px;
+    background-color: #FFFFFF;
+}
+.bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.bouton2{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    height: 3em;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: solid #FFFFFF;
+}
+.salut{
+    font-size: 30px;
+}
+.forme{
+    font-family: Impact, fantasy;
+    width: 20%;
+}
+.forme2{
+    width: 5%;
+    font-family: Impact, fantasy;
+}
+.cadre1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F0F0F0;
+}
+.cadre{
+    width: 22%;
+    height: 250px;
+    box-shadow:#E1E1E1 3px 3px 3px 3px;
+    background-color: #FFFFFF;
+}
+.cadre:hover{
+    box-shadow:#E1E1E1 10px 10px 10px;
+}
+.bloc{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
