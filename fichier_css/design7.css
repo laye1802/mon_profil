@@ -1,16 +1,57 @@
 #mapid{
     position:absolute; 
-     width:80%;
-     height: 88%;
-     margin-left: 10%;
-     margin-left: 10%;
-     margin-bottom: 20px;
+     width:85%;
+     height:75%;
      box-shadow: #E1E1E1 3px 3px 3px 3px;
-
+     background-color: #FFFFFF;
 }
 #bandeau{
     width: 100%;
 }
 #leaflet{
-    padding: 20px;
+    padding: 2%;
+    background-color: #FFFFFF;
+    bottom: 0;
+    height: 100%;
+}
+footer{
+    background-color: #1C1C20;
+    height: 50vh;
+}
+.formulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 2%;
+}
+.send{
+    background-color: #21CFF3;
+    border: #21CFF3;
+    padding: 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.icon7{
+    font-size: 30px;
+    color: #1C1C20;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon7:hover{
+    background-color: #F55262;
+}
+#icon5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.fin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

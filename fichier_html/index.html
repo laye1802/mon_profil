@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../fichier_css/design.css">
     <link rel="stylesheet" href="../fichier_css/design1.css">
     <link rel="stylesheet" href="../fichier_css/design2.css">
@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="../fichier_css/design4.css">
     <link rel="stylesheet" href="../fichier_css/design5.css">
     <link rel="stylesheet" href="../fichier_css/design7.css">
-    <link rel="stylesheet" href="../css/all.css">
-
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css">
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
@@ -26,17 +24,16 @@
 <body>
 <div id="bandeau">
 <!-- premiére partie -->
+        <div class="div3">
+           <div style="display: flex;flex-direction: row;justify-content: space-between;">
+              <div><i class="fas fa-user-circle" style="color: #21CFF3;background-color: #FFFFFF;font-size: 40px;border-radius: 50%;"></i></div>
+              <div><span class="span1">MeetMe</span></div>
+            </div>
+            <div><i class="fas fa-align-justify" style="font-size: 30px;color: #21CFF3;"></i></div>
+        </div>
 
     <div class="div1">
-        <div class="div2"><br>  
-            <div class="div3">
-                <div style="display: flex;flex-direction: row;justify-content: space-between;">
-                    <div><i class="fas fa-user-circle" style="color: #21CFF3;background-color: #FFFFFF;font-size: 40px;border-radius: 50%;"></i></div>
-                    <div><span class="span1">MeetMe</span></div>
-                </div>
-                <div><i class="fas fa-align-justify" style="font-size: 30px;color: #21CFF3;"></i></div>
-            </div>
-
+        <div class="div2"><br> 
             
             <div style="z-index: 1;">  
               <h4>Salut c'est</h4>
@@ -44,13 +41,18 @@
               <h5>Developpeur web front-end et graphiste</h5>
             </div>
 
-            <div class="div3">
-                <div><i class="fa fa-facebook" aria-hidden="true" style="font-size: 30px"></i></div>
-                <div><i class="fab fa-twitter-square" style="font-size: 30px"></i></div>
-                <div><i class="fab fa-instagram" style="font-size: 30px"></i></div>
-                <div></div>
-                <div><i class="fab fa-google" style="font-size: 30px"></i></div>
-            </div>
+            <div class="div6">
+                <div><i class="fa fa-facebook icon" aria-hidden="true" style="font-size: 30px"></i></div>
+                <div><pre> </pre></div>
+                <div><i class="fa-brands fa-twitter icon" style="font-size: 30px"></i></div>
+                <div><pre> </pre></div>
+                <div><i class="fab fa-instagram icon" style="font-size: 30px"></i></div>
+                <div><pre> </pre></div>
+                <div><i class="fab fa-google icon" style="font-size: 30px"></i></div>
+            </div><br><br>
+            <div style="display:flex;justify-content: center;">
+                <button style="background-color: #21CFF3;border-radius: 7px;width: 17%;border: #21CFF3;padding: 2px;"><strong>OBTENIR UN DEVIS GRATUIT</strong></button>
+             </div>
         </div>
     </div>
 <!--deuxième partie-->
@@ -59,7 +61,7 @@
     <div class="div5">
         <div class="mon_image"><img class="laye" src="../image/laye.jpg" height="100%" width="100%"></div>
 
-        <div style="height: 10%;">
+        <div>
             <p>
                      <p class="salut">Hi Guys!</p> 
                      <p>
@@ -119,8 +121,8 @@
                     </div>
                     <div><br></div>
                 <div class="bouton">
-                    <div><button style="background-color:#21CFF3;">DOWNLOAD RESUME</button></div>
-                    <div><button style="background-color: #F76775;">CONTACT ME</button></div>
+                    <div><button class="btn1">DOWNLOAD RESUME</button></div>
+                    <div><button class="btn2">CONTACT ME</button></div>
                 </div>
                 </div>
             </p>
@@ -131,13 +133,27 @@
 <!-- deuxiéme partie -->
     <div class="bloc">
         <div><br><br><br></div>
-      <div><span class="span2">WHAT I DO</span></div>
+      <div><span class="span2">CE QUE JE FAIS</span></div>
       <div><br><br><br></div>  
       <div class="cadre1">
-        <div class="cadre"></div>
-        <div class="cadre"></div>
-        <div class="cadre"></div>
-        <div class="cadre"></div>
+        <div class="cadre">
+            <br><i class="fa-solid fa-object-union icon4"></i><br><br>
+        </div>
+        <div class="cadreM">
+            <br><i class="fa-solid fa-layer-group icon4"></i><br><br>
+            <em>CONCEPTION GRAPHIQUE</em><br><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condi.
+        </div>
+        <div class="cadre">
+            <br><i class="fa-solid fa-briefcase icon4"></i><br><br>
+            <em>IMAGE DE MARQUE DE L'ENTREPRISE</em><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condi.
+        </div>
+        <div class="cadreM">
+            <br><i class="fa-solid fa-comments-dollar icon4"></i><br><br>
+            <em>CONSEIL</em><br><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condi.
+        </div>
       </div>
       <div><br><br><br><br></div>
     </div>
@@ -147,9 +163,9 @@
 
 <div>
     <div class="partie4"> 
-      <div></div>
+      <div><i class="fa-solid fa-graduation-cap icon3"></i><br><img class="capture" src="../image/capture.png" alt=""></div>
       <div  class="contain4">
-          <div>EDUCATION</div>
+          <div><strong>EDUCATION</strong></div>
           <div><br></div>
           <div class="bloc4">
               Bsc In CSE - Yale University <br> 2012 - 2016 <br>
@@ -170,9 +186,9 @@
              Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.
           </div>
       </div>
-      <div></div>
+      <div><i class="fa-solid fa-briefcase icon3"></i><br><img class="capture" src="../image/capture.png" alt=""></div>
       <div class="contain4">
-          <div>EXPERIENCE</div>
+          <div><strong> EXPERIENCE</strong></div>
           <div><br></div>
           <div class="bloc4">
             Art Director - Tesla Inc. <br> Jan 2018 - Present <br>
@@ -204,15 +220,15 @@
     <span class="span2">My Remarkable Works</span><br><br>
 
     <div class="contain5">
-        <div style="width: 7%;"><button style="background-color:#FFFFFF;color: #21CFF3;border:2px solid #21CFF3;width: 100%;">ALL</button></div>
-        <div style="width: 0.8vh;"></div>
-        <div style="width: 7%;"><button style="background-color:#21CFF3;border: #21CFF3;width: 100%;">DSIGN</button></div>
-        <div style="width: 0.8vh;"></div>
-        <div style="width: 11%;"><button style="background-color:#21CFF3;border: #21CFF3;width: 100%;">DEVELOPMENT</button></div>
-        <div style="width: 0.8vh;"></div>
-        <div style="width: 7%;"><button style="background-color:#21CFF3;border: #21CFF3;width: 100%;">PRINT</button></div>
+        <div class="all"><button class="design1">ALL</button></div>
+        <div><pre> </pre></div>
+        <div class="all"><button class="design2">DSIGN</button></div>
+        <div><pre>  </pre></div>
+        <div class="dev"><button class="design2" >DEVELOPMENT</button></div>
+        <div><pre>  </pre></div>
+        <div class="all"><button class="design2" >PRINT</button></div>
     </div>
-    <br><br><br>
+    <br><br>
     <div class="grid">
         <div class="cadre5"><img class="laye5" src="../image/image1.jpg" height="80%" width="90%"></div>
         <div class="cadre5"><img class="laye5" src="../image/image2.jpg" height="80%" width="90%"></div>
@@ -221,34 +237,77 @@
         <div class="cadre5"><img class="laye5" src="../image/image5.jpg" height="80%" width="90%"></div>
         <div class="cadre5"><img class="laye5" src="../image/image6.jpg" height="80%" width="90%"></div>
     </div>
-    <!---->
+    <!-- dernière partie-->
     <div class="profil"></div>
     <!---->
-    <br><br>
+    <br><br><br>
     <div class="contact">
+         <div class="formulaire">
+             <div style="width: 40%;">
+                 <strong>FORMULAIRE DE CONTACT</strong>
+                 <form action="">
+                    <input type="text" placeholder="Nom">
+                    <input type="text" placeholder="E-mail"> <br><br>
+                    <input type="text" placeholder="Sujet"> <br><br>
+                    <textarea name="" id="" cols="30" rows="8">Votre message</textarea><br><br>
+                    <input type="button" value="ENVOYER LE MESSAGE" class="send">
+                 </form>
+             </div>
+             <div style="width: 40%;">
+                 <strong>ADRESSE DE CONTACT</strong>
+                 <div class="contain4" style="border: 1px solid #E1E1E1;padding: 10px;width: 80%;flex-wrap: wrap;">
+                     <div style="display: flex;flex-direction: row;justify-content: flex-start;flex-wrap: wrap;width: 80%;">
+                         <div><i class="fa fa-map-marker icon3"></i></div>
+                         <div><pre> </pre></div>
+                         <div><article style="word-wrap: break-word;">KAOLACK <br>SENEGAL</article></div>
+                    </div>
+                    <div><br></div>
+                    <div style="display: flex;flex-direction: row;justify-content: flex-start;flex-wrap: wrap;width: 90%;">
+                        <div><i class="fa fa-envelope icon3"></i></div>
+                        <div><pre> </pre></div>
+                        <div><article style="word-wrap: break-word;">fahdalsow@gmail.com <br>ablayesow1802@gmail.com</article></div>
+                    </div>
+                    <div><br></div>
+                    <div style="display: flex;flex-direction: row;justify-content: flex-start;flex-wrap: wrap;width: 80%;">
+                        <div><i class="fa fa-phone icon3"></i></div>
+                        <div><pre> </pre></div>
+                        <div><article style="word-wrap: break-word;">+221 76 420 86 47 <br>+221 76 420 86 47</article></div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+
+
+        <div id="leaflet">
+            <div id="mapid">
+                <script>
+                    var mymap = L.map('mapid');
+                    mymap.setView([14.6885549545,-17.4671748648], 14);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
+                    var marker = L.marker([14.6885549545,-17.4671748648]);
+                    marker.addTo(mymap);
+                 </script>
+            </div>
+        </div>
 
     </div>
 </div>
-
-</div><br><br>
-    <div id="leaflet">
-        <div id="mapid"></div>
-
-        <br><br><br><br>
-    </div>
-
-<script>
-   var mymap = L.map('mapid');
-   mymap.setView([14.6885549545,-17.4671748648], 14);
-   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(mymap);
-
-   var marker = L.marker([14.6885549545,-17.4671748648]);
-   marker.addTo(mymap);
-
-
-
-</script>
-
-<footer><br><br><br></footer>
+</div>
+<footer>
+        <div id="icon5">
+            <div><i class="fa fa-facebook icon7" aria-hidden="true" ></i></div>
+            <div><pre> </pre></div>
+            <div><i class="fa-brands fa-twitter icon7"></i></div>
+            <div><pre> </pre></div>
+            <div><i class="fab fa-instagram icon7" ></i></div>
+            <div><pre> </pre></div>
+            <div><i class="icon-social-linkedin icon8"></i></div>
+            <div><pre> </pre></div>
+            <div><i class="fab fa-google icon7"></i></div>
+        </div>
+        <div class="fin">
+            <div style="color: #FFFFFF;">Copyright © 2022 UIdeck Tous droits réservés</div>
+        </div>
+</footer>
 </body>
 </html>

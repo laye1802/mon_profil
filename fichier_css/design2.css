@@ -50,3 +50,6 @@ button{
     width: 5%;
     font-family: Impact, fantasy;
 }
+.capture{
+    bottom: 0;
+}

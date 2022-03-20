@@ -60,6 +60,18 @@ button{
     height: 250px;
     box-shadow:#E1E1E1 3px 3px 3px 3px;
     background-color: #FFFFFF;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.cadreM{
+    width: 22%;
+    height: 220px;
+    box-shadow:#E1E1E1 3px 3px 3px 3px;
+    background-color: #FFFFFF;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
 }
 .cadre:hover{
     box-shadow:#E1E1E1 10px 10px 10px;
@@ -69,4 +81,30 @@ button{
     display: flex;
     flex-direction: column;
     justify-content:center;
+}
+.design2{
+    width: 100%;
+    background-color: #00B4D9;
+    border: #00B4D9;
+}.design1{
+    background-color: #EEEEEE;
+    width: 100%;
+    border: #00B4D9;
+    color: #00B4D9;
+    border: 1px solid #00B4D9;
+}
+.all{
+    width: 7%;
+    border: #00B4D9;
+}
+.dev{
+    width: 11%;
+}
+em:hover{
+    color: #00B4D9;
+}
+em{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgrey;
+    font-size: 20px;
 }
